@@ -1,0 +1,26 @@
+# =============================================
+# CIFAR-10 Image Classifier Project
+# =============================================
+
+# Core PyTorch & Computer Vision
+torch
+torchvision
+torchaudio
+
+# Data handling and visualization
+numpy
+matplotlib
+tqdm
+
+# AWS SageMaker Deployment
+sagemaker>=2.200.0,<3.0.0
+boto3
+
+# Image processing
+Pillow
+
+# Web Interface (Gradio)
+gradio
+
+# Optional: Better dependency management (uncomment if you want to use)
+# pip-tools

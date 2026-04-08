@@ -1,0 +1,80 @@
+# =============================================
+# Virtual Environment
+# =============================================
+venv/
+.venv/
+env/
+ENV/
+
+# =============================================
+# Python cache and bytecode
+# =============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# =============================================
+# PyTorch & ML specific
+# =============================================
+model.pth
+model.tar.gz
+*.mar
+data/
+runs/
+tensorboard/
+
+# =============================================
+# AWS SageMaker & temporary files
+# =============================================
+.aws/
+.sagemaker/
+*.pkl
+*.joblib
+
+# =============================================
+# OS generated files
+# =============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# =============================================
+# IDE / Editor files
+# =============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# =============================================
+# Logs and temporary files
+# =============================================
+*.log
+*.tmp
+*.temp
