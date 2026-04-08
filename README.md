@@ -34,8 +34,8 @@ cifar10-pytorch-sagemaker/
 
 ```bash
 python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python train.py
-python deploy.py
-python app.py #deploys app locally to http://127.0.0.1:7860
+source venv/bin/activate # create virtual environment
+pip install -r requirements.txt # installs all dependencies in requirements folder
+python train.py # on initial setup model must be trained
+python deploy.py # creates endpoint in AWS sagemaker
+python app.py # deploys app locally to http://127.0.0.1:7860
